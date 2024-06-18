@@ -1,0 +1,79 @@
+/**
+*
+* list.css
+* @author - innam
+* @date - 06/06/2024
+**/
+
+.menu-list-img  {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list-img li {
+    list-style-type: none;
+    padding: 18px 0;
+}
+
+.menu-list-names {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-list-names li {
+    list-style-type: none;
+    padding: 26px 0;
+    padding-left: 10px;
+    font-size: 18px;
+    /* align-items: center; */
+    color: #8D8E78;
+}
+
+.menu-list-names li a {
+    position: relative;
+}
+
+.menu-list-names li a:hover::before {
+    width: 75%;
+}
+
+.menu-list-names li a::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 3px;
+    left: 0;
+    width: 0;
+    background-color: #6262A6;
+    border-radius: 2px;
+    transition:width 0.3s ease;
+}
+
+.list-menu-icon li {
+    list-style-type: none;
+    display: inline;
+    font-size: 30px;
+}
+
+.list-menu-icon li i {
+    padding: 17px;
+}
+
+.option-1::before {
+    position: absolute;
+    content: "";
+    width: 2px;
+    height: 30px;
+    top: 36%;
+    background-color: #8D8E78; 
+}
+
+.list-info {
+    padding: 0;
+    margin: 0;
+}
+
+.list-info li {
+    list-style-type: none;
+    padding: 10px 14px 10px 20px;
+}

@@ -1,0 +1,23 @@
+/**
+*
+* grid.css
+* @author - innam
+* @date - 06/06/2024
+**/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1000px auto;
+    height: 350px;
+    padding: 10px;
+    gap: 20px;
+}
+
+.grid-container-1 {
+    display: grid;
+    grid-template-columns: 220px 220px 220px 220px 220px 220px;
+    height: 350px;
+    padding: 10px;
+    justify-content: space-between;
+    /* gap: 10px; */
+}

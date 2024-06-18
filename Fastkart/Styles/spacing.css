@@ -1,0 +1,42 @@
+/**
+*
+* spacing.css
+* @author - innam
+* @date - 06/06/2024
+**/
+
+.mar-top {
+    margin-top: 38px;
+}
+
+.mar-left {
+    margin-left: 25%;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.mtp {
+    margin-top: 20%;
+}
+
+.mtpp {
+    margin-top: 10px;
+}
+
+.mtpt {
+    margin-top: 14px;
+}
+
+.mtt {
+    margin-top: 12px;
+}
+
+.mttp {
+    margin-top: 15px;
+}
+
+.mtptp {
+    margin-top: 8px;
+}
